@@ -1,26 +1,70 @@
 
-// contenedor para las cartas de los jugadores
-<div class="cart">
-    //contenedor para las imagenes de los jugadores
-     <div class="image">
-        <img src="" alt="imagen-jugador">
+{% load static %}
 
-     </div>
-   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'cart.css' %}">
+</head>
+<body>
+{% for detal in detalle %}    
+<div class="principal">
     
-    <div class="estadisticas">
+    <!-- contenedor para las cartas de los jugadores-->
+     
+    <div class="cart">
+           
+        <!-- contenedor para las imagenes de los jugadores-->
+        
+        
+        <img  class="image" src="{{ detal.image.url }}" alt="imagen-jugador">
+      
+        <div class="name"><h2>{{ detal.nombre }}</h2></div>
+        <div class="estadisticas">
+    
+            <table>
+                <!-- filas para las estadisticas-->
+                <tr>
+                   <td>FZ</td>
+                   <th>{{ detal.fuerza }}%</th>
+                   <td>TR</td>
+                   <th>{{ detal.tiro}}%</th>
+                   
 
-        <table>
-            // filas para las estadisticas
-            <tr>
-               <td></td>
+                </tr>
 
-            </tr>
-            <tr></tr>
-            <tr></tr>
-        </table>
+                <tr>
+                   
+                    <td>VEl</td>
+                    <th>{{ detal.velocidad}}%</th>
+                    <td>RT</td>
+                    <th>{{ detal.rendimiento_total }}</th>
+ 
+                 </tr>
+                <tr></tr>
+                
+            </table>
+    
+    
+        </div>
 
-
+       
     </div>
+    
+   
 
+    
 </div>
+{% endfor %}        
+
+
+
+
+
+</body>
+</html>
+

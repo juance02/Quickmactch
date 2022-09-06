@@ -1,15 +1,15 @@
 from multiprocessing import context
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect,get_object_or_404
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login,authenticate
 
-from juego.models import Cartas
+from juego.models import *
 
 # Create your views here.
 
 #creacion de la pagina de incio 
 def inicio (request):
-    cart = Cartas.objects.all()#Hacemos  la consulta en base de daros para mostrar las cartas en la vista de iniio 
+    cart = Cartas_A.objects.all()#Hacemos  la consulta en base de daros para mostrar las cartas en la vista de iniio 
     context = { #diccionario de datos para pasar datos dinamicos en el template 
         'cart':cart,
     }
@@ -26,6 +26,7 @@ def register (request):
             password = form.cleaned_data['password1']
             user = authenticate(username=username , password=password) #para que el usuario se authentifique
             login(request, user) #para que el usuario # si todas estas funciones se cumplen el usuario ya se puede logear 
+            return redirect('inicio')
     
     else:
         form = UserCreationForm()
@@ -38,8 +39,21 @@ def register (request):
 
 def juegos(request):
     
+    
 
     return render(request, 'juegos/iniciar_juego.html')
+
+def todas_las_cartas(request):
+    detalle = Cartas_A.objects.all()
+    
+
+    context = {
+        'detalle':detalle,
+        
+    }
+
+    return render (request, 'Cart.html' ,context)
+
 
             
 

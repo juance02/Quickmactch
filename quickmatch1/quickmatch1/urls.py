@@ -30,7 +30,9 @@ urlpatterns = [
     #funcion para el login 
     path ('logout/', LogoutView.as_view(template_name='login.html'), name='logout'),
     #funcion para cerrar sesion 
-    path ('register', register, name='register')
+    path ('register', register, name='register'),
+    path ('juegos', juegos, name='juegos'),
+    path ('todas_las_cartas', todas_las_cartas, name='todas_las_cartas'),
     
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) 
 # funcion para poder cargar imaganes en django 

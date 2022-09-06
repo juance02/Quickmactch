@@ -1,4 +1,6 @@
+{% extends 'inicio.html' %}
 {% load crispy_forms_tags %}
+{% block content %}
 
 <form action="{% url 'register' %}" method="post">
     {% csrf_token %}
@@ -7,3 +9,4 @@
     <button class="btn btn-primary">Registrarse</button>
 
 </form>
+{% endblock %}

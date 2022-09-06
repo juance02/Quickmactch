@@ -1,0 +1,80 @@
+body{
+   background-color:black;
+   font-family: poppins , sans-serif;
+}
+
+.principal{
+
+width: 0 auto;
+height: 350px;
+display:inline-block
+
+
+}
+.cart{
+    width: 240px;
+    height: 320px;
+    margin-right: 20px;
+    left: 453px;
+    top: 50px;
+    box-shadow: 8px rgb(172, 172, 172);
+    border: 2px solid #ffffff;
+    border-bottom-left-radius:80px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-Right-radius:80px;
+    background-image: url(destruccion.com.jpg);
+   
+   
+   
+    
+
+}
+
+.cart .image{
+
+    width: 200px;
+    height: 140px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align:center;
+    
+    
+
+
+
+}
+
+
+.caracteristicas{
+  margin:  0 auto;
+  color: #ffffff;
+  font-size: 50px;
+  align-items: center;
+  text-align: center
+
+
+}
+
+
+table{
+    color: white;
+    text-align:center;
+    font-weight: bold;
+
+}  
+
+
+.name{
+    align-items:center;
+    text-align:center;
+}
+
+
+
+.name .h2{
+    color: white;
+    text-align: center;
+}
+

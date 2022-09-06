@@ -1,9 +1,9 @@
 from django.db import models
 
 # Create your models here.
-class Cartas (models.Model):
+class Cartas_A (models.Model):
     nombre = models.CharField(max_length=100)
-    posocion = models.CharField(max_length=100)
+    posicion = models.CharField(max_length=100)
     fuerza = models.CharField(max_length=100)
     tiro = models.CharField(max_length=100)
     velocidad = models.CharField(max_length=100)
