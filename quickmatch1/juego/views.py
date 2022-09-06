@@ -4,16 +4,17 @@ from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth import login,authenticate
 
 from juego.models import *
+import random
 
 # Create your views here.
 
 #creacion de la pagina de incio 
 def inicio (request):
-    cart = Cartas_A.objects.all()#Hacemos  la consulta en base de daros para mostrar las cartas en la vista de iniio 
-    context = { #diccionario de datos para pasar datos dinamicos en el template 
-        'cart':cart,
-    }
-    return render (request, 'inicio.html', context) #retornamos la vista 
+    #cart = Cartas_A.objects.all()#Hacemos  la consulta en base de daros para mostrar las cartas en la vista de iniio 
+    #context = { #diccionario de datos para pasar datos dinamicos en el template 
+    #    'cart':cart,
+    #}
+    return render (request, 'inicio.html') #retornamos la vista 
 
 #formulario de registro de usuarios para el juego 
 
@@ -38,10 +39,12 @@ def register (request):
     return render(request, 'register.html', context)
 
 def juegos(request):
+    barajar = Cartas_A.objects.all()
     
-    
-
-    return render(request, 'juegos/iniciar_juego.html')
+    context = {
+        'barajar':barajar,
+    }
+    return render(request, 'juegos/iniciar_juego.html', context,)
 
 def todas_las_cartas(request):
     detalle = Cartas_A.objects.all()
@@ -53,8 +56,7 @@ def todas_las_cartas(request):
     }
 
     return render (request, 'Cart.html' ,context)
-
-
+print(random.randint(1, 32))
             
 
 
