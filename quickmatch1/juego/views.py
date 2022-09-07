@@ -5,7 +5,8 @@ from django.contrib.auth import login,authenticate
 
 from juego.models import *
 import random
-
+from random import shuffle
+from juego.forms import *
 # Create your views here.
 
 #creacion de la pagina de incio 
@@ -40,10 +41,12 @@ def register (request):
 
 def juegos(request):
     barajar = Cartas_A.objects.all()
+
     
     context = {
         'barajar':barajar,
     }
+    
     return render(request, 'juegos/iniciar_juego.html', context,)
 
 def todas_las_cartas(request):
@@ -56,7 +59,27 @@ def todas_las_cartas(request):
     }
 
     return render (request, 'Cart.html' ,context)
-print(random.randint(1, 32))
+
             
 
+def barajar (request, clasificacion):
 
+    """baraja = ['1A','2B','3C','4D','5A','6B','7','8','9','10','11','12',
+    
+    '13','14','15','16','17','18','19','20','21','22','23','24','25','26',
+    '27','28','29','30'
+    
+    ]
+    """
+    cartas = Cartas_A.objects.get(clasificacion=clasificacion)
+    baraja = [cartas]
+
+    
+    shuffle(baraja)
+    var = print(baraja)
+
+    context = {
+        'var' : var,
+    }
+
+    return render(request,'juegos/baraja.html',context)

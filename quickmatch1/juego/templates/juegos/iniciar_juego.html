@@ -2,8 +2,8 @@
 
 {% block content %}
         
-    <p>barajar las cartas <a class="btn btn-primary" href="">Barajar</a></p>
+    <p>barajar las cartas <a class="btn btn-primary" href="{% url 'barajar' clasificacion %}">Barajar</a></p>
+    <a href="{% url 'todas_las_cartas' %}">Todas Las Cartas </a>
 {% endblock %}
 
 
-<a href="{% url 'todas_las_cartas' %}">Todas Las Cartas </a>
