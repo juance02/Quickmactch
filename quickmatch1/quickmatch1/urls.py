@@ -33,7 +33,7 @@ urlpatterns = [
     path ('register', register, name='register'),
     path ('juegos', juegos, name='juegos'),
     path ('todas_las_cartas', todas_las_cartas, name='todas_las_cartas'),
-    path ('barajar/<str:clasificacion>', barajar, name='barajar'),
+    path ('barajar/', barajar, name='barajar'),
     
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) 
 # funcion para poder cargar imaganes en django 

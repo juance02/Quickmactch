@@ -6,7 +6,7 @@ from random import shuffle
 
 class barajarform (forms.ModelForm):
     class Meta:
-        model = Cartas_A
+        model = Cartas
         fields = ['clasificacion']
 
     
