@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'quickmatch1.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'quickmatch',
+        'NAME': 'cartasjuego',
         'USER': 'root',  
         'PASSWORD': '',
         'PORT': '3306',

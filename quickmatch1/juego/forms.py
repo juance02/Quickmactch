@@ -1,26 +1,42 @@
 
-from dataclasses import fields
-from socket import fromshare
 from django import forms
-from juego.models import *
-from random import shuffle
+from django.forms import models, ModelForm
 
-class barajarform (forms.ModelForm):
+from juego.models import Cartas
+
+
+
+
+class ListadoProyecto(ModelForm):
     class Meta:
         model = Cartas
-        fields = ['clasificacion']
+        form = Cartas
+        fields = [
+            'clasificacion',
+            'nombre',
+            'posicion',
+            'tiro',
+            'velocidad',
+            'rendimiento_total',
+            'image',
+            ]
+        Labels={
+            
+            'clasificacion':'clasificacion',
+            'nombre ':' nombre',
+            'posicion':' posicion',
+            'tiro':' tiro',
+            'velocidad':' velocidad',
+            'rendimiento_total':' rendimiento_total',
+            'image':' image',
+            
+        }
 
-   
+SELECT_CHOICES = (
+  ('short', 'Short'),
+  ('normal', 'Normal'),
+  ('long', 'Long'),
+)
 
-    
-    
-
-
-
-
-
-
-    
-
-    
-    
+class SelectForm(forms.Form):
+    select_choice = models.ChoiceField(choices=SELECT_CHOICES)

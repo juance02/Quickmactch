@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
 from re import template
 from django.contrib import admin
 from django.urls import path
@@ -20,7 +21,7 @@ from django.contrib.auth.views import LoginView,LogoutView
 from juego.views import *
 from django.conf import settings
 from django.conf.urls.static import static
-
+#from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -31,9 +32,13 @@ urlpatterns = [
     path ('logout/', LogoutView.as_view(template_name='login.html'), name='logout'),
     #funcion para cerrar sesion 
     path ('register', register, name='register'),
-    path ('juegos', juegos, name='juegos'),
-    path ('todas_las_cartas', todas_las_cartas, name='todas_las_cartas'),
+    #path ('juegos', juegos, name='juegos'),
+    #path ('todas_las_cartas', todas_las_cartas, name='todas_las_cartas'),
     path ('barajar/', barajar, name='barajar'),
+    path('partida/', Partida ,name='partida'),
+    path('jugar/', generate_random ,name='index'),
+    path ('sala/', sala, name='sala'),
+
     
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) 
 # funcion para poder cargar imaganes en django 

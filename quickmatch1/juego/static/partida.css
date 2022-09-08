@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    background-color: rgb(10, 10, 10);
+    font-family: poppins , sans-serif;
+
+
+
+}
+
+
+.header{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.header h1{
+    font-size: 40px;
+    font-weight: 300;
+    color: white;
+    padding-top: -20px;
+   
+}
+
+.header p{
+    font-size: 28px;
+    color: green;
+
+    font-size:18px;    font-weight: 200;
+   
+}
+
+section{
+   
+    padding: 80px;
+    text-align: center;
+    
+}
+
+/* css para el el contenedor donde se moveran las cartas en el juego */
+
+.mesa{
+
+    margin: 0 auto;
+    padding: 80px;
+    
+   
+
+
+}
+
+
+.containerm{
+    margin: 0 auto;
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 80px;
+   grid-auto-rows: minmax(100px, auto);
+   
+ 
+}
+
+.carta-jugador{
+    
+    
+    width: 200px;
+    height: 260px;
+    margin-right: 20px;
+    border: 2px solid #a7a7a7;
+    border-bottom-left-radius:80px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-Right-radius:80px;
+    background-size: cover;
+    
+}
+
+
+/* css para el contenedor donde se encuentran los jugadores */
+
+.container{
+    margin: 0 auto;
+    display: inline-flex;
+   
+ 
+}
+
+.jugadores h2{
+
+    background-color: rgb(32, 32, 32);
+    padding: 10px 10px 10px 10px ;
+    font-size: 18px;
+    font-weight: 200;
+   
+}
+
+section{
+    padding: 80px;
+    text-align: center;
+    
+}
+
+
+.container{
+    margin: 0 auto;
+    display: inline-flex;
+   
+ 
+}
+
+.jugadores h2{
+
+    background-color: rgb(32, 32, 32);
+    padding: 10px 10px 10px 10px ;
+    color: beige;
+    border-radius: 10px;
+
+}
+
+
+/* codigo para el contenedor de los jugadores */
+.jugadores{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-right: 30px;
+  
+
+    
+  
+}
+
+
+
+
+/* codigo para el diseño de las cartas */
+.principal{
+
+    width: 0 auto;
+    height: 350px;
+    display:inline-block
+    
+    
+    }
+.cart{
+        width: 200px;
+        height: 260px;
+        margin-right: 20px;
+        border-bottom-left-radius:80px;
+        border-top-left-radius: 20px;
+        border: 2px solid #a7a7a7;
+        border-top-right-radius: 20px;
+        border-bottom-Right-radius:80px;
+        background-size: cover;
+        background-image: url(destruccion.com.jpg);
+       
+       
+       
+        
+    
+}
+    
+.cart .image{
+    
+        width: 200px;
+        height: 140px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align:center;
+        
+        
+    
+    
+    
+}
+    
+    
+.caracteristicas{
+      margin:  0 auto;
+      color: #ffffff;
+      font-size: 50px;
+      align-items: center;
+      text-align: center
+    
+    
+}
+    
+    
+table{
+        color: white;
+        text-align:center;
+        font-weight: bold;
+    
+    }  
+    
+    
+.name{
+        align-items:center;
+        text-align:center;
+    }
+    
+    
+    
+.name .h2{
+        color: white;
+        text-align: center;
+    }
+    
+
+
+
+    
+
+
+    
+  

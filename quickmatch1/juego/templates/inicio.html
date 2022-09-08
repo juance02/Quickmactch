@@ -1,55 +1,56 @@
- {% load static %}
- <!DOCTYPE html>
+{% load static %}
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="{% static 'inicio.css' %}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="{% static 'inicio.css' %}">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
 <section class="section" >
 
-    <div class="cuarto-circulo" >
-       
-        <video onloadedmetadata="this.muted=false" autoplay loop name="media">
-            <source src= "{% static 'PES 2022 Trailer (2021) PS5, Xbox Series X.mp4' %} "type="video/mp4" >
-        </video>
+   <video onloadedmetadata="this.muted=false" autoplay loop name="media">
+       <source src= "{% static 'PES 2022 Trailer (2021) PS5, Xbox Series X.mp4' %} "type="video/mp4" >
+   </video>
+
+   <div class="cuarto-circulo" >
       
-    </div>w
-
- 
-
-    <div class="conte" >
-
-       <h1>QUICK MATCH</h1>
-
-       <div class="c">
-        <h4>Bienvenidos a QUICK MATCH</h4>
-        <p>Quick Match es un juego de cartas en el cual podras jugar con tus amigos
-            
-           te explicaremos las reglas</p>
-
-        <h3>!Que esperas , vamos a jugar!!!</h3>   
-
-       </div>
-       <br>
-       <br>
-       <br>
-       <a  class="btn" href="">jugar¡</a>
-       
-
-    </div>
+     
+     
+   </div>
 
 
-    
+
+   <div class="conte" >
+
+      <h1>QUICK MATCH</h1>
+
+      <div class="c">
+       <h4>Bienvenidos a QUICK MATCH</h4>
+       <p>Quick Match es un juego de cartas en el cual podras jugar con tus amigos
+           
+          te explicaremos las reglas</p>
+
+       <h3>!Que esperas , vamos a jugar!!!</h3>   
+
+      </div>
+      <br>
+      <br>
+      <br>
+      <a  class="btn" href="{% url 'sala' %}">jugar¡</a>
+      
+
+   </div>
+
+
+   
 
 </section>    
-  
+ 
 </body>
 </html>
- 

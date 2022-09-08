@@ -1,0 +1,216 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="{% static 'partida.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partida</title>
+</head>
+<body>
+    <section>
+        <div class="mesa" >
+            <div class="containerm" >
+                <div class="carta-jugador" ></div>
+                <div class="carta-jugador" ></div>
+                <div class="carta-jugador" ></div>
+                <div class="carta-jugador" ></div>
+                
+            </div>
+          
+        </div>
+        <div class="container" >
+
+        <div class="jugadores" >
+            <div class="cart">
+           
+                <!-- contenedor para las imagenes de los jugadores-->
+                
+                
+                <img  class="image" src="{{ detal.image.url }}" alt="imagen-jugador">
+              
+                <div class="name"><h2>{{ detal.nombre }}</h2></div>
+                <div class="estadisticas">
+            
+                    <table>
+                        <!-- filas para las estadisticas-->
+                        <tr>
+                           <td>FZ</td>
+                           <th>{{ detal.fuerza }}%</th>
+                           <td>TR</td>
+                           <th>{{ detal.tiro}}%</th>
+                           
+                           
+        
+                        </tr>
+        
+                        <tr>
+                           
+                            <td>VEl</td>
+                            <th>{{ detal.velocidad}}%</th>
+                            <td>RT</td>
+                            <th>{{ detal.rendimiento_total }}</th>
+                            {{ jg4 }}
+         
+                         </tr>
+                        <tr></tr>
+                        
+                    </table>
+                    
+            
+                </div>
+        
+               
+            </div>
+            
+            
+            <h2>Jugador1</h2>
+            
+        </div>
+
+        
+        <div class="jugadores" >
+            <div class="cart">
+           
+                <!-- contenedor para las imagenes de los jugadores-->
+                
+                
+                <img  class="image" src="{{ detal.image.url }}" alt="imagen-jugador">
+              
+                <div class="name"><h2>{{ detal.nombre }}</h2></div>
+                <div class="estadisticas">
+            
+                    <table>
+                        <!-- filas para las estadisticas-->
+                        <tr>
+                           <td>FZ</td>
+                           <th>{{ detal.fuerza }}%</th>
+                           <td>TR</td>
+                           <th>{{ detal.tiro}}%</th>
+                           
+        
+                        </tr>
+        
+                        <tr>
+                           
+                            <td>VEl</td>
+                            <th>{{ detal.velocidad}}%</th>
+                            <td>RT</td>
+                            <th>{{ detal.rendimiento_total }}</th>
+                            {{ jg3 }}
+                         </tr>
+                        <tr></tr>
+                        
+                    </table>
+                    
+            
+                </div>
+        
+               
+            </div>
+            <h2>Jugador2</h2>
+            
+        </div>
+
+        
+        <div class="jugadores" >
+            <div class="cart">
+           
+                <!-- contenedor para las imagenes de los jugadores-->
+                
+                {% for cart in cartas1 %}
+                <img  class="image" src="{{ cart1.image.url }}" alt="imagen-jugador">
+              
+                <div class="name"><h2>{{ detal.nombre }}</h2></div>
+                <div class="estadisticas">
+            
+                    <table>
+                        <!-- filas para las estadisticas-->
+                        <tr>
+                           <td>FZ</td>
+                           <th>{{ detal.fuerza }}%</th>
+                           <td>TR</td>
+                           <th>{{ detal.tiro}}%</th>
+                           
+        
+                        </tr>
+        
+                        <tr>
+                           
+                            <td>VEl</td>
+                            <th>{{ detal.velocidad}}%</th>
+                            <td>RT</td>
+                            <th>{{ detal.rendimiento_total }}</th>
+                            {{ jg1 }}
+                         </tr>
+                        <tr></tr>
+                        {% endfor %}
+                    </table>
+                    
+            
+                </div>
+        
+               
+            </div>
+            <h2>Jugador3</h2>
+            
+        </div>
+
+        
+        <div class="jugadores" >
+            <div class="cart">
+           
+                <!-- contenedor para las imagenes de los jugadores-->
+                
+                
+                <img  class="image" src="{{ detal.image.url }}" alt="imagen-jugador">
+              
+                <div class="name"><h2>{{ detal.nombre }}</h2></div>
+                <div class="estadisticas">
+            
+                    <table>
+                        <!-- filas para las estadisticas-->
+                        <tr>
+                           <td>FZ</td>
+                           <th>{{ detal.fuerza }}%</th>
+                           <td>TR</td>
+                           <th>{{ detal.tiro}}%</th>
+                           
+        
+                        </tr>
+        
+                        <tr>
+                           
+                            <td>VEl</td>
+                            <th>{{ detal.velocidad}}%</th>
+                            <td>RT</td>
+                            <th>{{ detal.rendimiento_total }}</th>
+                            {{ jg2 }}
+                         </tr>
+                        <tr></tr>
+                        
+                    </table>
+                    
+            
+                </div>
+        
+               
+            </div>
+            
+            <h2>Jugador4</h2>
+            
+        </div>
+
+    
+    
+       
+       </div>
+    </section>
+    
+    
+  
+
+
+</body>
+</html>

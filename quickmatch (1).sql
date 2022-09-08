@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 07-09-2022 a las 16:07:56
+-- Tiempo de generación: 08-09-2022 a las 16:27:23
 -- Versión del servidor: 10.4.24-MariaDB
 -- Versión de PHP: 8.0.19
 
@@ -262,7 +262,43 @@ INSERT INTO `django_admin_log` (`id`, `action_time`, `object_id`, `object_repr`,
 (72, '2022-09-07 13:38:08.418551', '29', 'Gravenberch', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
 (73, '2022-09-07 13:38:15.559412', '30', 'Cahill', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
 (74, '2022-09-07 13:38:26.802321', '31', 'Lucas Paquetá', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
-(75, '2022-09-07 13:38:32.812739', '32', 'Rafinha', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1);
+(75, '2022-09-07 13:38:32.812739', '32', 'Rafinha', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(76, '2022-09-07 15:48:55.006037', '1', 'Lewandowski', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(77, '2022-09-07 15:49:00.415921', '2', 'Salah', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(78, '2022-09-07 15:49:07.982323', '3', 'Cristiano Ronaldo', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(79, '2022-09-07 15:49:15.962796', '4', 'Dembélé', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(80, '2022-09-07 15:49:22.230784', '5', 'Messi', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(81, '2022-09-07 15:49:28.197920', '6', 'Varane', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(82, '2022-09-07 15:49:37.779187', '7', 'Bale', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(83, '2022-09-07 15:50:05.014110', '8', 'Kanté', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(84, '2022-09-07 15:50:14.319266', '9', 'Ginola', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(85, '2022-09-07 15:50:41.941309', '8', 'Kanté', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\", \"Posicion\"]}}]', 7, 1),
+(86, '2022-09-07 15:50:49.800419', '9', 'Ginola', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(87, '2022-09-07 15:50:57.632332', '10', 'Ben Yedder', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(88, '2022-09-07 15:51:17.082155', '9', 'Ginola', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(89, '2022-09-07 15:53:19.206523', '11', 'Haaland', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(90, '2022-09-07 15:53:39.396473', '12', 'Benzema', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(91, '2022-09-07 15:53:44.730367', '13', 'Neymar Jr', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(92, '2022-09-07 15:53:55.125937', '14', 'Pogba', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(93, '2022-09-07 15:54:00.338393', '15', 'Wijnaldum', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(94, '2022-09-07 15:54:12.980590', '16', 'Eriksen', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(95, '2022-09-07 15:54:26.835169', '17', 'Barella', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(96, '2022-09-07 15:54:35.506731', '17', 'Barella', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(97, '2022-09-07 15:54:57.110557', '18', 'Marcelo', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(98, '2022-09-07 15:55:44.845274', '19', 'Sergio Ramos', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(99, '2022-09-07 15:55:53.641519', '20', 'Boateng', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(100, '2022-09-07 15:56:00.846259', '21', 'Tavernier', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(101, '2022-09-07 15:56:09.047287', '22', 'Kimpembe', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(102, '2022-09-07 15:56:23.470378', '23', 'Mendy', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(103, '2022-09-07 15:56:30.312779', '24', 'Alex Telles', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(104, '2022-09-07 15:56:41.461714', '25', 'Atal', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(105, '2022-09-07 15:56:55.088134', '26', 'Casemiro', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(106, '2022-09-07 15:57:11.567265', '27', 'Modrić', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(107, '2022-09-07 15:57:19.069456', '28', 'Pepe', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(108, '2022-09-07 15:57:27.935592', '29', 'Gravenberch', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(109, '2022-09-07 15:57:34.924467', '30', 'Cahill', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(110, '2022-09-07 15:57:43.487224', '31', 'Lucas Paquetá', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1),
+(111, '2022-09-07 15:57:48.270880', '32', 'Rafinha', 2, '[{\"changed\": {\"fields\": [\"Clasificacion\"]}}]', 7, 1);
 
 -- --------------------------------------------------------
 
@@ -286,7 +322,7 @@ INSERT INTO `django_content_type` (`id`, `app_label`, `model`) VALUES
 (2, 'auth', 'permission'),
 (4, 'auth', 'user'),
 (5, 'contenttypes', 'contenttype'),
-(7, 'juego', 'cartas_a'),
+(7, 'juego', 'cartas'),
 (8, 'juego', 'cartas_b'),
 (9, 'juego', 'cartas_c'),
 (10, 'juego', 'cartas_d'),
@@ -338,7 +374,8 @@ INSERT INTO `django_migrations` (`id`, `app`, `name`, `applied`) VALUES
 (24, 'juego', '0006_cartas_b_cartas_c_cartas_d', '2022-09-06 18:33:37.761368'),
 (25, 'juego', '0007_rename_posocion_cartas_a_posicion', '2022-09-06 19:25:18.185430'),
 (26, 'juego', '0008_delete_cartas_b_delete_cartas_c_delete_cartas_d', '2022-09-06 20:49:20.044923'),
-(27, 'juego', '0009_jugador_cartas_a_clasificacion_partida_jugador_carta_and_more', '2022-09-07 13:19:02.058908');
+(27, 'juego', '0009_jugador_cartas_a_clasificacion_partida_jugador_carta_and_more', '2022-09-07 13:19:02.058908'),
+(28, 'juego', '0010_rename_cartas_a_cartas', '2022-09-07 14:17:20.175206');
 
 -- --------------------------------------------------------
 
@@ -363,58 +400,58 @@ INSERT INTO `django_session` (`session_key`, `session_data`, `expire_date`) VALU
 -- --------------------------------------------------------
 
 --
--- Estructura de tabla para la tabla `juego_cartas_a`
+-- Estructura de tabla para la tabla `juego_cartas`
 --
 
-CREATE TABLE `juego_cartas_a` (
+CREATE TABLE `juego_cartas` (
   `id` bigint(20) NOT NULL,
+  `clasificacion` varchar(200) NOT NULL,
   `nombre` varchar(100) NOT NULL,
   `posicion` varchar(100) NOT NULL,
   `fuerza` varchar(100) NOT NULL,
   `tiro` varchar(100) NOT NULL,
   `velocidad` varchar(100) NOT NULL,
   `image` varchar(100) NOT NULL,
-  `rendimiento_total` varchar(200) NOT NULL,
-  `clasificacion` varchar(200) NOT NULL
+  `rendimiento_total` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Volcado de datos para la tabla `juego_cartas_a`
+-- Volcado de datos para la tabla `juego_cartas`
 --
 
-INSERT INTO `juego_cartas_a` (`id`, `nombre`, `posicion`, `fuerza`, `tiro`, `velocidad`, `image`, `rendimiento_total`, `clasificacion`) VALUES
-(1, 'Lewandowski', 'Delantero', '98', '99', '97', 'lewan_V83aFRS.jpg', '2584', '1A'),
-(2, 'Salah', 'Delantero', '88', '99', '99', 'slah.jpg', '2578', '2A'),
-(3, 'Cristiano Ronaldo', 'Delantero', '92', '99', '99', 'cr7.jpg', '2549', '3A'),
-(4, 'Dembélé', 'Extremo dereho', '79', '98', '95', 'p134449171.jpg', '2485', '4A'),
-(5, 'Messi', 'Delantero', '78', '98', '95', 'messi.jpg', '2485', '5A'),
-(6, 'Varane', 'Defensa central', '98', '61', '96', 'p100864831.jpg', '2378', '6A'),
-(7, 'Bale', 'Medio Campista Derecho', '96', '98', '99', 'bale.jpg', '2684', '7A'),
-(8, 'Kanté', 'Medio Campista Ofensivo', '91', '93', '92', 'kante.jpg', '2651', '8A'),
-(9, 'Ginola', 'Defensa Centrocampista', '92', '96', '98', 'ginola.jpg', '2608', '9A'),
-(10, 'Ben Yedder', 'Defensa Centrocampista', '85', '99', '99', 'p251857691.png', '2582', '10B'),
-(11, 'Haaland', 'Delantero', '35', '94', '99', '239085.png', '2581', '11B'),
-(12, 'Benzema', 'Delantero', '90', '85', '70', 'p218268961.png', '2479', '12B'),
-(13, 'Neymar Jr', 'Delantero', '80', '81', '83', 'p184740247.png', '2467', '13B'),
-(14, 'Pogba', 'Medio Campista', '93', '91', '63', '195864.png', '2702', '14B'),
-(15, 'Wijnaldum', 'Medio Campista', '70', '94', '50', '181291.png', '2699', '15B'),
-(16, 'Eriksen', 'Medio Campista', '90', '61', '96', '190460.png', '2691', '16B'),
-(17, 'Barella', 'Medio Campista', '90', '61', '92', 'p184773608.png', '2698', '17C'),
-(18, 'Marcelo', 'Lateral Izquierdo', '88', '94', '96', 'p67285540.png', '2695', '18C'),
-(19, 'Sergio Ramos', 'Defensa Centrocampista', '95', '97', '91', 'p84041942.png', '2691', '19C'),
-(20, 'Boateng', 'Medio Campista', '60', '75', '50', '173909.png', '2689', '20C'),
-(21, 'Tavernier', 'Lateral Derecho', '50', '30', '45', 'p117635991.png', '1900', '21C'),
-(22, 'Kimpembe', 'Medio Campista', '50', '61', '42', 'p84111930.png', '1900', '22C'),
-(23, 'Mendy', 'Medio Campista', '75', '56', '63', 'p67337482.png', '2000', '23C'),
-(24, 'Alex Telles', 'Lateral Izquierdo', '45', '60', '28', '212462.png', '1500', '24C'),
-(25, 'Atal', 'Medio Campista', '63', '39', '45', 'p151235698.png', '1600', '25D'),
-(26, 'Casemiro', 'Medio Campista', '70', '61', '85', 'p67309009.png', '2200', '26D'),
-(27, 'Modrić', 'Medio Campista', '90', '93', '82', 'p67285867.png', '2700', '27D'),
-(28, 'Pepe', 'Defensa', '70', '63', '59', 'p67229397.png', '2000', '28D'),
-(29, 'Gravenberch', 'Medio Campista', '70', '50', '45', '246104.png', '1930', '29C'),
-(30, 'Cahill', 'Medio Campista Derecho', '73', '49', '55', 'p67160276.png', '1953', '30D'),
-(31, 'Lucas Paquetá', 'Medio Campista', '75', '62', '51', 'p100897223.png', '1987', '31D'),
-(32, 'Rafinha', 'Lateral Derecho', '55', '49', '38', 'p84087480.png', '1700', '32D');
+INSERT INTO `juego_cartas` (`id`, `clasificacion`, `nombre`, `posicion`, `fuerza`, `tiro`, `velocidad`, `image`, `rendimiento_total`) VALUES
+(1, '1A', 'Lewandowski', 'Delantero', '98', '99', '97', 'lewan_V83aFRS.jpg', '2584'),
+(2, '2A', 'Salah', 'Delantero', '88', '99', '99', 'slah.jpg', '2578'),
+(3, '3A', 'Cristiano Ronaldo', 'Delantero', '92', '99', '99', 'cr7.jpg', '2549'),
+(4, '4A', 'Dembélé', 'Extremo dereho', '79', '98', '95', 'p134449171.jpg', '2485'),
+(5, '5A', 'Messi', 'Delantero', '78', '98', '95', 'messi.jpg', '2485'),
+(6, '6A', 'Varane', 'Defensa central', '98', '61', '96', 'p100864831.jpg', '2378'),
+(7, '7A', 'Bale', 'Medio Campista Derecho', '96', '98', '99', 'bale.jpg', '2684'),
+(8, '8A', 'Kanté', 'Medio Campista Ofensivo8', '91', '93', '92', 'kante.jpg', '2651'),
+(9, '9B', 'Ginola', 'Defensa Centrocampista', '92', '96', '98', 'ginola.jpg', '2608'),
+(10, '10B', 'Ben Yedder', 'Defensa Centrocampista', '85', '99', '99', 'p251857691.png', '2582'),
+(11, '11B', 'Haaland', 'Delantero', '35', '94', '99', '239085.png', '2581'),
+(12, '12B', 'Benzema', 'Delantero', '90', '85', '70', 'p218268961.png', '2479'),
+(13, '13B', 'Neymar Jr', 'Delantero', '80', '81', '83', 'p184740247.png', '2467'),
+(14, '14B', 'Pogba', 'Medio Campista', '93', '91', '63', '195864.png', '2702'),
+(15, '15B', 'Wijnaldum', 'Medio Campista', '70', '94', '50', '181291.png', '2699'),
+(16, '16B', 'Eriksen', 'Medio Campista', '90', '61', '96', '190460.png', '2691'),
+(17, '17B', 'Barella', 'Medio Campista', '90', '61', '92', 'p184773608.png', '2698'),
+(18, '18B', 'Marcelo', 'Lateral Izquierdo', '88', '94', '96', 'p67285540.png', '2695'),
+(19, '19C', 'Sergio Ramos', 'Defensa Centrocampista', '95', '97', '91', 'p84041942.png', '2691'),
+(20, '20C', 'Boateng', 'Medio Campista', '60', '75', '50', '173909.png', '2689'),
+(21, '21C', 'Tavernier', 'Lateral Derecho', '50', '30', '45', 'p117635991.png', '1900'),
+(22, '22C', 'Kimpembe', 'Medio Campista', '50', '61', '42', 'p84111930.png', '1900'),
+(23, '23C', 'Mendy', 'Medio Campista', '75', '56', '63', 'p67337482.png', '2000'),
+(24, '24C', 'Alex Telles', 'Lateral Izquierdo', '45', '60', '28', '212462.png', '1500'),
+(25, '25D', 'Atal', 'Medio Campista', '63', '39', '45', 'p151235698.png', '1600'),
+(26, '26D', 'Casemiro', 'Medio Campista', '70', '61', '85', 'p67309009.png', '2200'),
+(27, '27D', 'Modrić', 'Medio Campista', '90', '93', '82', 'p67285867.png', '2700'),
+(28, '28D', 'Pepe', 'Defensa', '70', '63', '59', 'p67229397.png', '2000'),
+(29, '29D', 'Gravenberch', 'Medio Campista', '70', '50', '45', '246104.png', '1930'),
+(30, '30D', 'Cahill', 'Medio Campista Derecho', '73', '49', '55', 'p67160276.png', '1953'),
+(31, '31D', 'Lucas Paquetá', 'Medio Campista', '75', '62', '51', 'p100897223.png', '1987'),
+(32, '32D', 'Rafinha', 'Lateral Derecho', '55', '49', '38', 'p84087480.png', '1700');
 
 -- --------------------------------------------------------
 
@@ -519,9 +556,9 @@ ALTER TABLE `django_session`
   ADD KEY `django_session_expire_date_a5c62663` (`expire_date`);
 
 --
--- Indices de la tabla `juego_cartas_a`
+-- Indices de la tabla `juego_cartas`
 --
-ALTER TABLE `juego_cartas_a`
+ALTER TABLE `juego_cartas`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -529,16 +566,16 @@ ALTER TABLE `juego_cartas_a`
 --
 ALTER TABLE `juego_jugador`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `juego_jugador_carta_id_127cd4ba_fk_juego_cartas_a_id` (`carta_id`),
-  ADD KEY `juego_jugador_user_id_c5bcf33d_fk_auth_user_id` (`user_id`);
+  ADD KEY `juego_jugador_user_id_c5bcf33d_fk_auth_user_id` (`user_id`),
+  ADD KEY `juego_jugador_carta_id_127cd4ba_fk_juego_cartas_id` (`carta_id`);
 
 --
 -- Indices de la tabla `juego_partida`
 --
 ALTER TABLE `juego_partida`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `juego_partida_carta_id_d31d8ee2_fk_juego_cartas_a_id` (`carta_id`),
-  ADD KEY `juego_partida_juagadores_id_76e05a99_fk_juego_jugador_id` (`juagadores_id`);
+  ADD KEY `juego_partida_juagadores_id_76e05a99_fk_juego_jugador_id` (`juagadores_id`),
+  ADD KEY `juego_partida_carta_id_d31d8ee2_fk_juego_cartas_id` (`carta_id`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
@@ -584,7 +621,7 @@ ALTER TABLE `auth_user_user_permissions`
 -- AUTO_INCREMENT de la tabla `django_admin_log`
 --
 ALTER TABLE `django_admin_log`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=112;
 
 --
 -- AUTO_INCREMENT de la tabla `django_content_type`
@@ -596,12 +633,12 @@ ALTER TABLE `django_content_type`
 -- AUTO_INCREMENT de la tabla `django_migrations`
 --
 ALTER TABLE `django_migrations`
-  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
+  MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
--- AUTO_INCREMENT de la tabla `juego_cartas_a`
+-- AUTO_INCREMENT de la tabla `juego_cartas`
 --
-ALTER TABLE `juego_cartas_a`
+ALTER TABLE `juego_cartas`
   MODIFY `id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
 
 --
@@ -658,14 +695,14 @@ ALTER TABLE `django_admin_log`
 -- Filtros para la tabla `juego_jugador`
 --
 ALTER TABLE `juego_jugador`
-  ADD CONSTRAINT `juego_jugador_carta_id_127cd4ba_fk_juego_cartas_a_id` FOREIGN KEY (`carta_id`) REFERENCES `juego_cartas_a` (`id`),
+  ADD CONSTRAINT `juego_jugador_carta_id_127cd4ba_fk_juego_cartas_id` FOREIGN KEY (`carta_id`) REFERENCES `juego_cartas` (`id`),
   ADD CONSTRAINT `juego_jugador_user_id_c5bcf33d_fk_auth_user_id` FOREIGN KEY (`user_id`) REFERENCES `auth_user` (`id`);
 
 --
 -- Filtros para la tabla `juego_partida`
 --
 ALTER TABLE `juego_partida`
-  ADD CONSTRAINT `juego_partida_carta_id_d31d8ee2_fk_juego_cartas_a_id` FOREIGN KEY (`carta_id`) REFERENCES `juego_cartas_a` (`id`),
+  ADD CONSTRAINT `juego_partida_carta_id_d31d8ee2_fk_juego_cartas_id` FOREIGN KEY (`carta_id`) REFERENCES `juego_cartas` (`id`),
   ADD CONSTRAINT `juego_partida_juagadores_id_76e05a99_fk_juego_jugador_id` FOREIGN KEY (`juagadores_id`) REFERENCES `juego_jugador` (`id`);
 COMMIT;
 
