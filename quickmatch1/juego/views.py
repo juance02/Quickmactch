@@ -76,7 +76,7 @@ def barajar (request):
     
     db=MySQLdb.connect(host="localhost",user="root",passwd="",db="quickmatch", )
     c = db.cursor(MySQLdb.cursors.DictCursor)
-    c.execute("SELECT id FROM juego_cartas ORDER BY RAND() LIMIT 8;")
+    c.execute("SELECT * FROM juego_cartas ORDER BY RAND() LIMIT 8;")
     result_set = c.fetchall()
     
    
@@ -87,48 +87,31 @@ def barajar (request):
 
 
     random.shuffle(baraja)
-    jugador1 =print(baraja)
+    #jugador1 =print(baraja)
     
-    c.execute("SELECT id FROM juego_cartas ORDER BY RAND() LIMIT 8;")
+    c.execute("SELECT * FROM juego_cartas ORDER BY RAND() LIMIT 8;")
     result_seti = c.fetchall()
     baraja1 = [result_seti]
     jugador2 = []
     random.shuffle(baraja1)
-    jugador2 =print(baraja1)
+    #jugador2 =print(baraja1)
 
-    c.execute("SELECT id FROM juego_cartas ORDER BY RAND() LIMIT 8;")
-    result_seti2 = c.fetchall()
-    baraja2 = [result_seti2]
-    jugador3 = []
-    random.shuffle(baraja2)
-    jugador3 =print(baraja2)
-
-    c.execute("SELECT id FROM juego_cartas ORDER BY RAND() LIMIT 8;")
-    result_seti3 = c.fetchall()
-    baraja3 = [result_seti3]
-    jugador4 = []
-    random.shuffle(baraja3)
-    jugador4 =print(baraja3)
-
-    cartas = Cartas.objects.filter(id=3)
-    cartas1 = Cartas.objects.filter(id=2)
-    cartas2 = Cartas.objects.filter(id=15)
-    cartas3 = Cartas.objects.filter(id=32)
+    
+    
    
-    cartas1 = Cartas.objects.all()
-    cartas2 = Cartas_1.objects.all()
+    imagenes = result_set
+    baraja1 = result_seti
+    
 
-    #jg1 = print("Cartas Jugador 1: {0} ".format(jugador1))
-    #jg2 = print("Cartas Jugador 2: {0} ".format(jugador2))
-    #jg3 = print("Cartas Jugador 3: {0} ".format(jugador3))
-    #var = print("Cartas Jugador 4: {0} ".format(jugador4))
+
 
     context = {
         
         
         
-        'cartas1':cartas1,  
-        'cartas2':cartas2,  
+       
+        'imagenes':imagenes, 
+        'baraja1': result_seti
           
           
         }

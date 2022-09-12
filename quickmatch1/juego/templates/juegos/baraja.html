@@ -23,14 +23,16 @@
 {% endfor %}
 <br>
 <br>
-{% for cart3 in cartas2  %}
- <p>{{ cart2.nombre }}</p>
+{% for carts in imagenes  %}
+ <p>{{ carts.nombre }}</p>
+ <img src="{{carts.image.url }}" width="90px" alt="">
+ <h3>{{carts.clasificacion}}</h3>
+ <h1>{{carts.rendimiento_total}}</h1>
+
+ 
 {% endfor %}
 <br>
 <br>
-{% for cart3 in cartas3  %}
- <p>{{ cart3.nombre }}</p>
-{% endfor %}
 
 
 
